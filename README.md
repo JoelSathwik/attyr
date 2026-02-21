@@ -10,6 +10,8 @@ ATTYR is an end-to-end AI-powered fashion assistant that:
 - Visually displays outfit suggestions side-by-side
 
 
+
+
 **🧠 System Architecture**
 
 Pipeline:
@@ -22,7 +24,10 @@ Pipeline:
 6. Visual Recommendation Display
 
 
+
+
 **📁 Project Structure**
+
 
 
 attyr_core/
@@ -35,6 +40,10 @@ attyr_core/
 ├── requirements.txt
 ├── README.md
 └── .gitignore
+
+<img width="364" height="857" alt="image" src="https://github.com/user-attachments/assets/7afbbca2-126e-4360-8239-67707d7eac90" />
+
+
 
 
 **⚙️ Setup Instructions**
@@ -59,6 +68,8 @@ venv\Scripts\activate
     Generate Outfit Recommendations
         python recommendation/recommend.py
 
+
+
 **📌 Notes**
 
 Model weights (*.pth) are excluded from the repository.
@@ -68,6 +79,8 @@ Datasets are excluded to keep repository lightweight.
 This repository represents the baseline implementation.
 
 Future upgrades include embedding-based compatibility modeling and improved metadata extraction.
+
+
 
 **🎯 Project Status**
 
