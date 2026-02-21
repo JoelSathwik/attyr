@@ -50,22 +50,26 @@ attyr_core/
 
 1️⃣ Create virtual environment
 
-python -m venv venv
-venv\Scripts\activate
+        python -m venv venv
+        venv\Scripts\activate
 
 2️⃣ Install dependencies
 
         pip install -r requirements.txt
 
-    🚀 Usage
+🚀 Usage
 
-    Segment Dataset
+Segment Dataset
+        
         python segmentation/segment_dataset.py
-    Train Garment Classifier
+Train Garment Classifier
+        
         python classification/train.py
-    Build Virtual Wardrobe
+Build Virtual Wardrobe
+        
         python metadata/build_wardrobe.py
-    Generate Outfit Recommendations
+Generate Outfit Recommendations
+        
         python recommendation/recommend.py
 
 
